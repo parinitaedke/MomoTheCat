@@ -16,7 +16,6 @@ float momoHeight;          //height of the cat pic
 float ghostWidth;          //width of the ghost pic
 float ghostHeight;         //height of the ghost pic
 
-
 int errorMarginLines;      //parameters for vertical and horizontal lines
 int lineLength;            //min length of shape drawn to qualify as a line
 

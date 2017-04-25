@@ -1,5 +1,5 @@
 class Ghost {
-  PImage ghost_1;
+  PImage ghostImage;
   PVector pos;
   float ghostWidth, ghostHeight;
 
@@ -25,12 +25,12 @@ class Ghost {
   }
 
   void loadGhostPic() {
-    ghost_1=loadImage("ghost-1.png");
+    ghostImage=loadImage("ghost-1.png");
   }
   
   void drawGhost() {
     imageMode(CENTER);
-    image(ghost_1, this.pos.x, this.pos.y, this.ghostWidth, this.ghostHeight);
+    image(ghostImage, this.pos.x, this.pos.y, this.ghostWidth, this.ghostHeight);
     image(life, pos.x, pos.y-this.ghostHeight/2, this.ghostWidth/2, this.ghostHeight/2);
   }
 

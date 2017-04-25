@@ -1,23 +1,23 @@
 class Cat {
-  PImage cat;
+  PImage catImage;
   float xPos, yPos;
-  float catWidth, catHeight;
+  float catImageWidth, catImageHeight;
   PVector nikki;
   
-  Cat(float xPos, float yPos, float catWidth, float catHeight) {
+  Cat(float xPos, float yPos, float catImageWidth, float catImageHeight) {
     this.xPos = xPos;
     this.yPos = yPos;
-    this.catWidth = catWidth;
-    this.catHeight = catHeight;
+    this.catImageWidth = catImageWidth;
+    this.catImageHeight = catImageHeight;
     this.nikki = new PVector();
   } 
 
   void loadMomoPic() {
-    cat = loadImage("momo_the_cat-1.png");
+    catImage = loadImage("momo_the_cat-1.png");
   }
   
   void drawMomo() {
     imageMode(CENTER);
-    image(cat, this.xPos, this.yPos, this.catWidth, this.catHeight);
+    image(catImage, this.xPos, this.yPos, this.catImageWidth, this.catImageHeight);
   }
 }
