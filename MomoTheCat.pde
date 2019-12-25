@@ -70,13 +70,13 @@ void setup() {
   ghostList = new ArrayList<Ghost>();
   addGhostsToArray();
 
-  momoHeart = loadImage ("heart.png");
+  momoHeart = loadImage ("images/heart.png");
 
   gameOver = false;
   instructionScreen = true;
-  night = loadImage("night.png");
-  won = loadImage("End_2.jpg");
-  lost = loadImage("End_1.jpg");
+  night = loadImage("images/night.png");
+  won = loadImage("images/End_2.jpg");
+  lost = loadImage("images/End_1.jpg");
 
   minim = new Minim(this);
   music = minim.loadFile("sound_effects/Momo_Cat.mp3");
