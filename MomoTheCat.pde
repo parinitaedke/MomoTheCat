@@ -4,7 +4,7 @@
  above the ghosts to kill them. Momo loses a life when a ghost touches 
  him. 
  ****USE HEADPHONES TO HEAR COOL SOUND EFFECTS****
- Last edited: Jan 23, 2017
+ Last edited: Dec 24, 2019
  */
 
 FloatList shapeDrawnX = new FloatList();     //stores all x coordinates of the shape drawn
@@ -51,8 +51,8 @@ AudioPlayer hit;
 Minim minim;
 
 void settings() {
-  size(1000, 600);
-  //fullScreen();
+  //size(1000, 600);
+  fullScreen();
 }
 
 void setup() {
