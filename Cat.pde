@@ -13,7 +13,7 @@ class Cat {
   } 
 
   void loadMomoPic() {
-    catImage = loadImage("momo_the_cat-1.png");
+    catImage = loadImage("images/momo_the_cat-1.png");
   }
   
   void drawMomo() {
