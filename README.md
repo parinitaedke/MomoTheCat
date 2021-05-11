@@ -1,4 +1,4 @@
 # MomoTheCat
 
 Momo the Cat fights off ghosts to win back a spell book. A recreation of the 2016 Google Halloween Doodle!
-Last edited: Dec 24, 2019
+Date of last edit: Dec 24, 2019
